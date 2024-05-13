@@ -14,10 +14,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="16dp"
-        android:fontFamily="@font/poppins_light"
+        android:fontFamily="@font/poppins"
         android:text="Notes"
         android:layout_marginStart="18dp"
         android:textColor="@color/orange"
+        android:textStyle="bold"
         android:textSize="24sp"/>
 
 
@@ -25,9 +26,9 @@
         android:id="@+id/notesRecycleView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
         android:layout_marginTop="50dp"
-        android:padding="16dp"
-        />
+        android:padding="16dp" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addButton"
