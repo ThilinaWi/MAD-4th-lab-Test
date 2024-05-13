@@ -58,7 +58,7 @@ class NotesDataBaseHelper (context: Context) : SQLiteOpenHelper(context,DATABASE
         val db = writableDatabase
         val values = ContentValues().apply {
             put(COLUMN_TITLE,note.title)
-            put(COLUMN_TITLE,note.content)
+            put(COLUMN_CONTENT,note.content)
         }
         val whereClause = "$COLUMN_ID = ?"
         val whereArgs = arrayOf(note.id.toString())

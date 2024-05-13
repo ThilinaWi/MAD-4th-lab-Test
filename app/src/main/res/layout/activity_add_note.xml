@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back2"
     tools:context=".AddNoteActivity">
 
 
@@ -41,10 +42,13 @@
 
     <EditText
         android:id="@+id/titleEditText"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
         android:layout_below="@id/addNoteHeading"
-        android:layout_marginTop="18dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/orange_border"
         android:fontFamily="@font/poppins"
         android:hint="Enter the title"
@@ -60,10 +64,12 @@
 
     <EditText
         android:id="@+id/contendEditText"
-        android:layout_width="411dp"
-        android:layout_height="602dp"
+        android:layout_width="387dp"
+        android:layout_height="595dp"
         android:layout_below="@id/titleEditText"
-        android:layout_marginTop="27dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="5dp"
         android:background="@drawable/orange_border"
         android:fontFamily="@font/poppins"
         android:gravity="top"

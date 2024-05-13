@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back2"
     tools:context=".UpdateNoteActivity">
 
 
@@ -42,12 +43,16 @@
     <EditText
         android:id="@+id/updateTitleEditText"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="wrap_content"
         android:layout_below="@id/editNoteHeading"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/orange_border"
+        android:fontFamily="@font/poppins"
         android:hint="Enter the title"
         android:maxLines="1"
-        android:fontFamily="@font/poppins"
         android:padding="12dp"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -59,9 +64,13 @@
 
     <EditText
         android:id="@+id/updateContendEditText"
-        android:layout_width="411dp"
-        android:layout_height="602dp"
+        android:layout_width="391dp"
+        android:layout_height="606dp"
         android:layout_below="@id/updateTitleEditText"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/orange_border"
         android:fontFamily="@font/poppins"
         android:gravity="top"
